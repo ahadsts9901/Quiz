@@ -1,4 +1,8 @@
 /* button */
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
 
 button{
     color: white;
@@ -9,6 +13,9 @@ button{
     font-size: 16px;
     width: 200px;
     text-align: center;
+    height: 50px;
+    font-weight: 100;
+    letter-spacing: 0.07em;
 }
 
 .button2{
@@ -19,24 +26,24 @@ button{
     text-align: center;
     font-size: 16px;
     width: 200px;
+    height: 50px ;
     text-align: center;
+    font-weight: 100;
+    letter-spacing: 0.07em;
 }
 
 /* body */
 
 body{
-    background-color: white;
-    font-family: sans-serif;
-    font-size: 16px;
-    font-weight: bold;
+    background-color: rgba(6, 74, 119, 0.13);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
 }
 
 /* main heading */
 h2, h3{
-    color: solid black;
+    color: rgb(0, 38, 63);
     text-align: center;
-    font-weight: bold;
-
 }
 
 /* h2 */
@@ -44,19 +51,25 @@ h2, h3{
 p{
     color: rgb(6, 74, 119);
     text-align: center;
-    font-weight: bold;
 }
 
 .wrong{
     color: rgb(71, 8, 8);
     text-align: center;
     font-size: large;
-    font-weight: bold;
 }
 
 .right{
     color: rgb(7, 56, 7);
     text-align: center;
     font-size: large;
-    font-weight: bold;
+}
+
+.linespace{
+    line-height: 1.6em;
+    font-weight: 100;
+}
+
+hr{
+    border: 1px solid rgb(6, 74, 119);
 }
